@@ -100,11 +100,4 @@ public class BattleFieldActivity extends AppCompatActivity {
             bfAdapter.notifyDataSetChanged();
         }
     }
-
-   // private void resetPage() {
-   //     BattlefieldAdapter bfAdapter = (BattlefieldAdapter) recyclerView.getAdapter();
-   //     bfAdapter.clearSelection();
-   //     bfAdapter.notifyDataSetChanged();
-   // }
-
 }

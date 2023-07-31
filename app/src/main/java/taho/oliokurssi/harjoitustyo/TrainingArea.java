@@ -35,13 +35,6 @@ public class TrainingArea extends Storage {
         }
     }
 
-
- //  public void moveToTrainingArea (Lutemon lutemon) {
- //       lutemon.setLocation(Location.TRAINING_AREA);
- //       inTrainingArea.add(lutemon);
- //   }
-
-
     public static TrainingArea getInstance() {
         if (trainingArea == null) {
             trainingArea = new TrainingArea();

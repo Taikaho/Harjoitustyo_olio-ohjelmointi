@@ -54,41 +54,6 @@ public class LutemonListAdapter extends RecyclerView.Adapter<LutemonViewHolder> 
         }
         holder.location.setText(locationString);
 
-
- /*
-        int pos = holder.getAdapterPosition();
-        Location locationButtons = lutemons.get(pos).getLocation();
-        if (locationButtons == Location.HOME) {
-            holder.toTraining.setVisibility(View.VISIBLE);
-            holder.toBattlefield.setVisibility(View.VISIBLE);
-        }
-        else if (locationButtons == Location.TRAINING_AREA) {
-            holder.toHome.setVisibility(View.VISIBLE);
-            holder.toBattlefield.setVisibility(View.VISIBLE);
-        }
-        else {
-            holder.toTraining.setVisibility(View.VISIBLE);
-            holder.toHome.setVisibility(View.VISIBLE);
-        }
-
-
-       /* holder.moveLutemon.setOnClickListener(view -> {
-            RadioGroup rgMoveTo = holder.moveTo;
-            if (rgMoveTo.getCheckedRadioButtonId() == R.id.rbToHome) {
-                Home.getInstance().moveToHome(lutemons.get(pos));
-            }
-            else if  (rgMoveTo.getCheckedRadioButtonId() == R.id.rbToTraining) {
-                TrainingArea.getInstance().moveToTrainingArea(lutemons.get(pos));
-            }
-            else {
-                Battlefield.getInstance().moveToBattlefield(lutemons.get(pos));
-            }
-            notifyDataSetChanged();
-
-        });
-        */
-
-
     }
 
     @Override

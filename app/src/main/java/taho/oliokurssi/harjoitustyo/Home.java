@@ -41,16 +41,6 @@ public class Home extends Storage {
         inHome.add(lutemon);
     }
 
-
-   //public void moveToHome (Lutemon lutemon) {
-   //     if (lutemon != null && lutemon.getHealth() < lutemon.getMaxHealth()) {
-   //         lutemon.getMaxHealth();
-   //     }
-   //     lutemon.setLocation(Location.HOME);
-   //     inHome.add(lutemon);
-   // }
-
-
     public static Home getInstance() {
         if (home == null) {
             home = new Home();
