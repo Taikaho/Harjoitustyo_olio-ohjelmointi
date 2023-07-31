@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Harjoitustyo</string>
+    <string name="valitse_kaksintaistelijat">Valitse kaksintaistelijat</string>
+    <string name="taistelemaan">Taistelemaan!</string>
+</resources>
