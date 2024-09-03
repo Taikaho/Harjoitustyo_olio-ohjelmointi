@@ -1,0 +1,1 @@
+A final assignment from the OOP course at LUT University. The application is a game for Android where the player can create different colored ‘Lutemon’ monsters. The player can activate fights where the monsters battle using their unique features. The player can also heal and train the monsters. The application also includes a list that shows each monster’s health, power, etc.
